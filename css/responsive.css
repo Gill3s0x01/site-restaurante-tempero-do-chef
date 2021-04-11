@@ -49,13 +49,13 @@ px      68    160    252    344    436    528    620    712    */
     padding: 0px 0px 30px;
   }
   #blog .block ul li .blog-img {
-    width: 50%;
+    width: 100%;
   }
   #blog .block ul li .blog-img img {
     width: 100%;
   }
   #blog .block ul li .blog-img-2 {
-    width: 50%;
+    width: 100%;
   }
   #blog .block ul li .blog-img-2 img {
     width: 100%;
@@ -83,18 +83,18 @@ px      68    160    252    344    436    528    620    712    */
     text-align: left;
   }
   /*--
-    contact-us Start
+    contact Start
 --*/
-  #contact-us {
+  #contact {
     padding: 60px 0 0;
   }
-  #contact-us .block {
+  #contact .block {
     text-align: center;
   }
-  #contact-us .block .title {
+  #contact .block .title {
     text-align: left;
   }
-  #contact-us .block a {
+  #contact .block a {
     padding: 15px 80px;
     float: inherit;
   }
@@ -153,7 +153,11 @@ px      68    160    252    */
   nav .block {
     padding: 0px;
     margin-bottom: 0px;
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -webkit-linear-gradient(
+      right,
+      rgba(255, 255, 255, 0.6),
+      #ffffff
+    );
     background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
     background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
     background: linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
@@ -322,12 +326,12 @@ px      68    160    252    */
     margin-top: 20px;
   }
   /*--
-    contact-us Start
+    contact Start
 --*/
-  #contact-us {
+  #contact {
     padding: 60px 0 0;
   }
-  #contact-us .block a {
+  #contact .block a {
     padding: 20px 80px;
     width: 100%;
     float: inherit;
